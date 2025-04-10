@@ -1,0 +1,600 @@
+.head {
+    text-align: center;
+    background-color: #82BF79;
+    color: white;
+    margin-top: -0.1%;
+    font-family: poppins;
+    font-size: 110%;
+    border: none;
+    width: 98.9%;
+    padding: 1%;
+}
+
+.Rasi img {
+    width: 99.5%;
+    height: 99%;
+    margin-top: -1%;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    color: white;
+    gap: 26%;
+    margin-left: -6%;
+}
+
+.nav {
+    display: flex;
+    gap: 18%;
+
+    .text img {
+        width: -100%;
+    }
+}
+
+.text p1 {
+    margin-left: 9%;
+    margin-top: 1.5%;
+    font-size: 25px;
+    font-family: poppins;
+}
+
+.elevate {
+    width: 60%;
+    margin-top: 20%;
+    margin-left: -55%;
+    font-size: 80px;
+    font-family: poppins;
+    margin-top: 180px;
+}
+
+.screen-print {
+    width: 60%;
+    margin-top: 20%;
+    margin-left: -80%;
+    font-size: 20px;
+    font-family: poppins;
+    margin-top: 430px;
+}
+
+.screen-print p2 {
+    width: 60%;
+    margin-top: 20%;
+    margin-left: 8%;
+    font-size: 20px;
+    font-family: poppins;
+    margin-top: 420px;
+}
+
+.screen-print button {
+    font-family: poppins;
+    font-size: 80%;
+    padding: 1.4% 4%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgba(188, 175, 175, 0.668);
+    cursor: pointer;
+    margin-left: 13%;
+}
+
+.india {
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    width: 98.8%;
+    margin-top: 19.5%;
+    text-align: center;
+    font-size: 350%;
+    font-family: poppins_l;
+    color: rgb(42, 41, 41);
+}
+
+.timeless {
+    display: flex;
+    margin-top: 8%;
+    gap: 8%;
+    margin-bottom: 20%;
+}
+
+.timeless img {
+    border-radius: 15px;
+    width: 33%;
+    height: 60%;
+    margin-left: 5%;
+    box-shadow: 0px 15px 18px -5px rgb(55, 53, 53);
+}
+
+.screen {
+    margin-left: 47%;
+    justify-content: center;
+
+}
+
+.screen h2 {
+    font-size: 300%;
+    font-family: poppins;
+
+}
+
+.screen p1 {
+    font-size: 180%;
+    color: #82BF79;
+    margin-top: 10%;
+}
+
+.screen p {
+    color: grey;
+    font-size: 150%;
+}
+
+.button button1 {
+    margin-left: 3%;
+    font-family: poppins;
+    font-size: 116%;
+    padding: 3.5% 8%;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    background-color: #88E788;
+    margin-top: 3%;
+    cursor: pointer;
+
+}
+
+.button button2 {
+    font-family: poppins;
+    font-size: 116%;
+    padding: 3.5% 8%;
+    border-radius: 100px;
+    border: 1px solid;
+    color: black;
+    margin-left: 10%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.icons {}
+
+.rasi-array p {
+    font-size: 150%;
+    color: rgb(80, 76, 76);
+}
+
+.rasi-array h1 {
+    font-size: 350%;
+    text-align: center;
+}
+
+.rasi-array p {
+    font-size: 150%;
+    color: grey;
+    text-align: center;
+
+}
+
+.printing-process {
+    display: flex;
+    margin-bottom: 10%;
+    font-size: 120%;
+    margin-top: 5%;
+    gap: 5%;
+}
+
+.textile img {
+    margin-left: 5%;
+    width: 28%;
+    height: 70%;
+    border-radius: 10%;
+}
+
+.textile h2 {
+    margin-top: 165%;
+    margin-left: 25%;
+}
+
+.textile p {
+    width: 90%;
+    margin-left: 25%;
+    color: grey;
+
+}
+
+.textile svg {
+    border: none;
+    background-color: lightblue;
+    border-radius: 50px;
+    margin-left: 94%;
+    margin-top: -500%;
+
+}
+
+.uv img {
+    width: 28%;
+    height: 70%;
+    border-radius: 10%;
+    margin-left: 11%;
+    position: absolute;
+    gap: 10%;
+    display: flex;
+
+}
+
+.uv h2 {
+    margin-left: 60%;
+    margin-top: 165%;
+    width: 85%;
+
+}
+
+.uv svg {
+    border: none;
+    border-radius: 50px;
+    margin-left: 94%;
+    margin-top: -160px;
+}
+
+.uv p {
+    margin-left: 55%;
+    color: gray;
+    width: 100%;
+}
+
+.four-color img {
+    margin-left: 17.1%;
+    width: 28%;
+    height: 70%;
+    border-radius: 10%;
+}
+
+.four-color-text {
+    margin-left: 0%
+}
+
+.color-text svg {
+    border: none;
+    border-radius: 50px;
+    margin-left: 180%;
+    margin-top: -90%;
+}
+
+.color-text h2 {
+    margin-left: 100%;
+    margin-top: 188%;
+width: 45%;
+    justify-content: center;
+}
+
+.four-color p {
+    margin-left: 60%;
+    margin-top: -7%;
+    width: 120%;
+    color: gray;
+}
+
+.color-text {
+    margin-left: 18%;
+    gap: 20%;
+    margin-top: 1%;
+    display: flex;
+
+}
+
+.client {
+    text-align: center;
+    font-size: 125%;
+    ;
+
+}
+
+.client h2 {
+    font-size: 285%;
+    font-family: poppins;
+}
+
+.client p {
+
+    color: gray;
+}
+
+.client-industry {
+    display: flex;
+    gap: 4%;
+
+}
+
+.aditya {
+    display: flex;
+    gap: 5%;
+    box-shadow: 0px 6px 23px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: white;
+    padding: 1% 4%;
+    width: 20%;
+    height: 80%;
+    margin-top: 3%;
+    position: relative;
+    margin-left: 2%;
+    justify-content: space-between;
+}
+
+.arvind {
+    display: flex;
+    gap: 35%;
+    box-shadow: 0px 6px 23px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: white;
+    padding: 1% 4%;
+    width: 20%;
+    height: 80%;
+    margin-top: 3%;
+    position: relative;
+}
+
+.raymond {
+    display: flex;
+    gap: 45%;
+    box-shadow: 0px 6px 23px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: white;
+    padding: 1% 4%;
+    width: 20%;
+    height: 60%;
+    margin-top: 3%;
+    justify-content: space-between;
+}
+
+.client-industry img {
+    width: 30%;
+    height: 40%;
+}
+
+.arvind img {
+    width: 40%;
+    height: 20%;
+}
+
+.raymond img {
+    width: 30%;
+    height: 30%;
+}
+
+.aditya h3,
+.arvind h3,
+.raymond h3 {
+    font-size: 150%;
+    color: grey
+}
+
+.aditya p,
+.arvind p,
+.raymond p {
+    font-size: 100%;
+    color: grey;
+}
+
+.printing {
+    gap: 7%;
+    display: flex;
+    font-size: 117%;
+    padding: 3%;
+    margin-top: 11%;
+}
+
+.printing p {
+    color: gray;
+    width: 180%;
+
+}
+
+.cushion img {
+    width: 38%;
+    margin-left: 2%;
+    height: 48%;
+    border-radius: 20px;
+}
+
+.high-quality-print {
+    margin-left: 3%;
+
+}
+
+.showcasing {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.showcasing p {
+    color: gray;
+    font-size: 120%;
+    font-family: Poppins;
+}
+
+.showcasing h3 {
+    font-size: 270%;
+    font-family: Poppins;
+}
+
+.arvi img {
+    width: 20%;
+    height: 20%;
+    margin-bottom: 15%;
+    margin-top: 1%;
+}
+
+.gap img {
+    width: 10%;
+    height: 15%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.Myntra img {
+    width: 13%;
+    height: 25%;
+    margin-bottom: 15%;
+    margin-top: %;
+}
+
+.puma img {
+    width: 15%;
+    height: 25%;
+    margin-bottom: 15%;
+
+}
+
+.converse img {
+    width: 14%;
+    height: 18%;
+    margin-bottom: 15%;
+}
+
+.con img {
+    width: 12%;
+    height: 22%;
+    margin-bottom: 15%;
+}
+
+.brands {
+    display: flex;
+    gap: 15%;
+    margin-top: 5%;
+    margin-left: -5%;
+
+}
+
+.rectangle img {
+    width: 12%;
+    height: 12%;
+    margin-top: 1%;
+    border: solid 1px;}
+
+    .images {
+        gap: 30%;
+        display: flex;
+        margin-top: 15%;
+        margin-left: 6%;
+        border-radius: 10px;
+    }
+
+
+
+.dress img {
+    width: 25%;
+    height: 50%;
+    margin-top: 15%;
+
+}
+
+.bed img {
+    width: 25%;
+    height: 50%;
+    margin-top: 15%
+}
+.girl img{
+    width: 25%;
+    height: 50%;
+    margin-top: 15%
+}
+.sheet img{
+    width: 100%;
+    margin-top: 43%;
+    border-radius: 10px;
+}
+.reach-out{
+    text-align: center;
+    font-size: 115%;
+    margin-top: 88%;
+    
+}
+.reach-out h3{
+    font-size: 270%;
+}
+.reach-out p{
+    color: rgb(99, 94, 94);
+    margin-top: -1%;
+}
+.map img{
+    z-index: -1;
+    width: 100%;
+    height: 900px;
+    margin-bottom: 13%;
+    margin-top: 2%;
+}
+.contact-info{
+    position: absolute;
+    border: none;
+    border-radius: 5%;
+    padding: 4% 3%;
+    background-color: white;
+    width: 20%;
+    margin-top: 13%;
+    margin-left: 7%;
+    box-shadow: 0px 45px 33px rgba(0, 0, 0, 0.495);
+}
+
+
+.contact-info h3{
+    font-size: 190%;
+
+}
+.address h4{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.footer-elements{
+    display: flex;
+    border: none;
+    background-color: #3e3e3e;
+    color: white;
+    gap: 8%;
+    padding: 3.5% ;
+margin-top: 60%;
+/* width: 100%; */
+    
+}
+.footer-elements img{
+    width: 13%;
+    z-index: 1;
+    height: 160px;
+    margin-top: 3%;
+    border-radius: 15px;
+    
+}
+.social-medias{
+    line-height:18px;
+    cursor: pointer;
+
+}
+.sites a{
+    text-decoration: none;
+    color: white;
+
+}
+.office{
+    display: flex;
+ gap: 40px;
+ cursor: pointer;
+}
+hr{
+    margin-top: -4%;
+    color: rgb(194, 189, 189);
+}
+#copyright{
+    color: white;
+    text-align: center;
+}
+.Contact-Us svg{
+margin-top: 85%;
+
+
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    
+}
