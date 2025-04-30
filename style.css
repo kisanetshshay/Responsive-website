@@ -1,3 +1,8 @@
+body{
+overflow-x: hidden;
+}
+
+
 .head {
     text-align: center;
     background-color: #82BF79;
@@ -6,7 +11,7 @@
     font-family: poppins;
     font-size: 110%;
     border: none;
-    width: 98.9%;
+    width: 205.9%;
     padding: 1%;
 }
 
@@ -88,14 +93,14 @@
     margin-top: 19.5%;
     text-align: center;
     font-size: 350%;
-    font-family: poppins_l;
+    font-family: poppins;
     color: rgb(42, 41, 41);
 }
 
 .timeless {
     display: flex;
     margin-top: 8%;
-    gap: 8%;
+    gap: 3%;
     margin-bottom: 20%;
 }
 
@@ -108,7 +113,7 @@
 }
 
 .screen {
-    margin-left: 47%;
+    margin-left: 15%;
     justify-content: center;
 
 }
@@ -156,7 +161,10 @@
     cursor: pointer;
 }
 
-.icons {}
+.icons {
+
+
+}
 
 .rasi-array p {
     font-size: 150%;
@@ -179,25 +187,26 @@
     display: flex;
     margin-bottom: 10%;
     font-size: 120%;
-    margin-top: 5%;
-    gap: 5%;
+    gap: 2%;
+    margin-left: 8%;
+      margin-top: 5%;
 }
 
 .textile img {
-    margin-left: 5%;
-    width: 28%;
-    height: 70%;
+    
+    width: 105%;
+    height: 55%;
     border-radius: 10%;
 }
 
 .textile h2 {
-    margin-top: 165%;
-    margin-left: 25%;
+    margin-top: 17%;
+    margin-left: 16%;
 }
 
 .textile p {
     width: 90%;
-    margin-left: 25%;
+    margin-left: 18%;
     color: grey;
 
 }
@@ -206,25 +215,21 @@
     border: none;
     background-color: lightblue;
     border-radius: 50px;
-    margin-left: 94%;
+    margin-left: 70%;
     margin-top: -500%;
 
 }
 
 .uv img {
-    width: 28%;
-    height: 70%;
+    width:93%;
+    height: 55%;
     border-radius: 10%;
-    margin-left: 11%;
-    position: absolute;
-    gap: 10%;
-    display: flex;
-
+    margin-left: 4%;
 }
 
 .uv h2 {
-    margin-left: 60%;
-    margin-top: 165%;
+    margin-left: 28%;
+margin-top: 17%;
     width: 85%;
 
 }
@@ -232,52 +237,51 @@
 .uv svg {
     border: none;
     border-radius: 50px;
-    margin-left: 94%;
+    
     margin-top: -160px;
 }
 
 .uv p {
-    margin-left: 55%;
+    margin-left: 30%;
     color: gray;
-    width: 100%;
+    width: 105%;
+margin-top: 12%;
 }
 
 .four-color img {
-    margin-left: 17.1%;
-    width: 28%;
-    height: 70%;
+
+    width: 103%;
+    height: 55%;
     border-radius: 10%;
 }
 
-.four-color-text {
-    margin-left: 0%
-}
 
 .color-text svg {
     border: none;
     border-radius: 50px;
-    margin-left: 180%;
+    
     margin-top: -90%;
 }
 
 .color-text h2 {
-    margin-left: 100%;
-    margin-top: 188%;
-width: 45%;
-    justify-content: center;
+      margin-top: 12%;
+    
+     width: 45%;
+    margin-left: 30%;
 }
 
 .four-color p {
-    margin-left: 60%;
-    margin-top: -7%;
+    
+    margin-top: 8%;
     width: 120%;
     color: gray;
+    margin-left:32%; 
 }
 
 .color-text {
-    margin-left: 18%;
+
     gap: 20%;
-    margin-top: 1%;
+    
     display: flex;
 
 }
@@ -285,7 +289,7 @@ width: 45%;
 .client {
     text-align: center;
     font-size: 125%;
-    ;
+   margin-top: -9%; 
 
 }
 
@@ -300,51 +304,59 @@ width: 45%;
 }
 
 .client-industry {
-    display: flex;
-    gap: 4%;
-
-}
-
-.aditya {
-    display: flex;
-    gap: 5%;
-    box-shadow: 0px 6px 23px rgba(0, 0, 0, 0.2);
+    display:flex;
+    /* box-shadow: 0px 6px 23px rgba(0, 0, 0, 0.2); */
     border-radius: 8px;
-    background-color: white;
-    padding: 1% 4%;
-    width: 20%;
-    height: 80%;
     margin-top: 3%;
-    position: relative;
-    margin-left: 2%;
-    justify-content: space-between;
+    gap: 1;
 }
 
 .arvind {
     display: flex;
-    gap: 35%;
-    box-shadow: 0px 6px 23px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    background-color: white;
-    padding: 1% 4%;
-    width: 20%;
-    height: 80%;
+    gap: 2%;
+    
+    
+    /* background-color: white; */
+    /* padding: 1% 4%; */
+    /* width: 30%; */
+    /* height: 40%; */
     margin-top: 3%;
-    position: relative;
+    
+}
+.aditya{
+display: flex;
+gap: 2%;
+/* box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.2); */
+    border-radius:5% ;
+    background-color: white;
+    
+
 }
 
 .raymond {
     display: flex;
-    gap: 45%;
+    
     box-shadow: 0px 6px 23px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     background-color: white;
     padding: 1% 4%;
-    width: 20%;
-    height: 60%;
-    margin-top: 3%;
-    justify-content: space-between;
 }
+.aditya  h3{
+    width: 5%;
+    height: 40%;
+}
+.arvind {
+    width: 60%;
+    height: 40%;
+}
+.raymond h3{
+    width: 40%;
+    
+}.aditya img{
+    width: 55%;
+    margin-top: 5%;
+}
+
 
 .client-industry img {
     width: 30%;
@@ -364,7 +376,7 @@ width: 45%;
 .aditya h3,
 .arvind h3,
 .raymond h3 {
-    font-size: 150%;
+    font-size: 130%;
     color: grey
 }
 
@@ -376,11 +388,12 @@ width: 45%;
 }
 
 .printing {
-    gap: 7%;
+    gap: 15%;
     display: flex;
     font-size: 117%;
     padding: 3%;
-    margin-top: 11%;
+    margin-top: 7%;
+    margin-left: 6%;
 }
 
 .printing p {
@@ -390,9 +403,9 @@ width: 45%;
 }
 
 .cushion img {
-    width: 38%;
+    width: 62%;
     margin-left: 2%;
-    height: 48%;
+    height: 105%;
     border-radius: 20px;
 }
 
@@ -418,110 +431,119 @@ width: 45%;
 }
 
 .arvi img {
-    width: 20%;
-    height: 20%;
-    margin-bottom: 15%;
-    margin-top: 1%;
+    width: 55%;
+    height: 45%;
+    
 }
 
 .gap img {
-    width: 10%;
-    height: 15%;
-    margin-bottom: 5%;
-    margin-top: 2%;
+    width: 65%;
+    height: 35%;
+    
+    
 }
 
 .Myntra img {
-    width: 13%;
-    height: 25%;
-    margin-bottom: 15%;
-    margin-top: %;
+    width: 65%;
+    height: 40%;
+    
+    
 }
 
 .puma img {
-    width: 15%;
+    width: 65%;
     height: 25%;
-    margin-bottom: 15%;
+    
 
 }
 
 .converse img {
-    width: 14%;
-    height: 18%;
-    margin-bottom: 15%;
+    width: 65%;
+    height: 20%;
+    
 }
 
 .con img {
-    width: 12%;
+    width: 65%;
     height: 22%;
-    margin-bottom: 15%;
+    
 }
 
 .brands {
     display: flex;
-    gap: 15%;
-    margin-top: 5%;
-    margin-left: -5%;
+    gap: 4px;
+    margin-top: 4%;
+    margin-left: 4%;
 
 }
 
 .rectangle img {
-    width: 12%;
-    height: 12%;
-    margin-top: 1%;
+    width: 40%;
+    height: 22%;
+    /* margin-top: 1%; */
     border: solid 1px;}
 
-    .images {
-        gap: 30%;
+    .images  {
+        gap:13%;
         display: flex;
-        margin-top: 15%;
-        margin-left: 6%;
-        border-radius: 10px;
+        margin-top: -4%;
+        margin-left: 16%;
+        border-radius: 13px;
     }
 
 
 
 .dress img {
-    width: 25%;
-    height: 50%;
+    width: 185%;
+    height: 80%;
     margin-top: 15%;
-
+border-radius: 10%;
 }
 
 .bed img {
-    width: 25%;
-    height: 50%;
-    margin-top: 15%
+    width: 165%;
+    height: 80%;
+    margin-top: 13%;
+   border-radius: 10%; 
 }
 .girl img{
-    width: 25%;
-    height: 50%;
-    margin-top: 15%
+    width: 188%;
+    height: 80%;
+    margin-top: 14%;
+    border-radius: 10%;
+
 }
 .sheet img{
     width: 100%;
-    margin-top: 43%;
+    margin-top: 13%;
     border-radius: 10px;
 }
 .reach-out{
     text-align: center;
     font-size: 115%;
-    margin-top: 88%;
+    margin-top: 75%;
     
+}.showcasing h3{
+    margin-top: -83%;
 }
+
+
+
 .reach-out h3{
     font-size: 270%;
+    
+    
 }
 .reach-out p{
     color: rgb(99, 94, 94);
-    margin-top: -1%;
+
 }
 .map img{
     z-index: -1;
     width: 100%;
-    height: 900px;
-    margin-bottom: 13%;
-    margin-top: 2%;
+    height: -16%;
+    margin-top: 3%;
+    
 }
 .contact-info{
     position: absolute;
@@ -530,8 +552,8 @@ width: 45%;
     padding: 4% 3%;
     background-color: white;
     width: 20%;
-    margin-top: 13%;
-    margin-left: 7%;
+    margin-top: -45%;
+    margin-left: 15%;
     box-shadow: 0px 45px 33px rgba(0, 0, 0, 0.495);
 }
 
@@ -551,8 +573,7 @@ width: 45%;
     color: white;
     gap: 8%;
     padding: 3.5% ;
-margin-top: 60%;
-/* width: 100%; */
+margin-top: 0%;
     
 }
 .footer-elements img{
@@ -595,6 +616,33 @@ margin-top: 85%;
 
 
 
-@media only screen and (max-width: 400px) {
-    
+@media only screen and (max-width: 450px) {
+   body{
+    font-size: 80%;
+   } 
+.Rasi img{
+width: 200%;
+height: 70%;
 }
+.head{
+flex-direction: column;
+}
+.Rasi p{
+margin-left: 5%;
+}
+body{
+ overflow-x: hidden;
+}
+.head p{
+text-align: center;
+
+
+}
+
+
+
+}
+
+
+
+
